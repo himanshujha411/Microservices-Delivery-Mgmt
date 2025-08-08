@@ -35,6 +35,7 @@ Make sure these are installed before running this service:
 
 ## 📁 Folder Structure (Example)
 
+```
 delivery-service/
 ├── controller/ # REST endpoints (delivery APIs)
 ├── service/ # Business logic
@@ -45,6 +46,7 @@ delivery-service/
 ├── util/ # Utility functions or constants
 ├── DeliveryApplication.java
 └── application.properties
+```
 
 ---
 
@@ -58,7 +60,8 @@ server.port=8083
 spring.datasource.url=jdbc:postgresql://localhost:5432/delivery_db
 spring.datasource.username=your_db_username
 spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update```
+spring.jpa.hibernate.ddl-auto=update
+```
 
 ---
 
@@ -67,5 +70,5 @@ spring.jpa.hibernate.ddl-auto=update```
 ```git clone https://github.com/himanshujha411/Microservices-Delivery-Mgmt.git
 cd Microservices-Delivery-Mgmt
 
-./mvnw spring-boot:run```
-
+./mvnw spring-boot:run
+```
